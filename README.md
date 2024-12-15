@@ -35,7 +35,7 @@ Naive Bayes Classifier
 Support Vector Machines (SVM)
 Random Forest Classifier
 Logistic Regression
-K-Nearest Neighbors (KNN
+K-Nearest Neighbors (KNN)
 ## Objectives
 Compare the performance of the Naive Bayes Classifier against other machine learning models.
 Handle the class imbalance using appropriate strategies such as resampling, class weighting, or ensemble methods.
@@ -43,6 +43,8 @@ Handle the class imbalance using appropriate strategies such as resampling, clas
 Precision , 
 Recall ,
 F1 Score
+## Result:
+I prefer NB After_Drop PCs + Time + ScaledAmount over models using SMOTE (like LR_with_SMOTE) is very reasonable for real-world deployment scenarios. It provides a good balance of recall for both classes while ensuring reliability and robustness without relying on synthetic data. high recall for Class 1 (0.87) , strong performance for Class 0 (0.98)
 ## How to Run the Project
 Prerequisites
 Install required libraries:
