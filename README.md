@@ -3,9 +3,11 @@ It is crucial for credit card companies to detect fraudulent transactions to pro
 https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud 
 ## Dataset Content
 **Time Period**: made in September 2013 by European cardholders.
+
 **Size** : The dataset contains 284,807 transactions over two days.
-**Fraud Instances**:
-Total fraudulent transactions: 492.
+
+**Fraud Instances**:  Total fraudulent transactions: 492.
+
 Fraud transactions account for 0.172% of all transactions, making the dataset highly imbalanced.
 ## Features
 **PCA Features**:
