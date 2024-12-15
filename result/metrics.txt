@@ -1,0 +1,17 @@
+#### Testing Confusion Matrix
+|                | Predicted 0 | Predicted 1 |
+|----------------|-------------|-------------|
+| **Actual 0**   | 56018          | 843          |
+| **Actual 1**   | 13          | 88          |
+
+#### Testing Classification Report
+              precision    recall  f1-score   support
+
+           0       1.00      0.99      0.99     56861
+           1       0.09      0.87      0.17       101
+
+    accuracy                           0.98     56962
+   macro avg       0.55      0.93      0.58     56962
+weighted avg       1.00      0.98      0.99     56962
+
+Testing Accuracy: 0.98
