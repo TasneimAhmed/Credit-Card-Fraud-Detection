@@ -1,17 +1,41 @@
-**Dataset**:
-
-It is important that credit card companies are able to recognize fraudulent credit card transactions so that customers are not charged for items that they did not purchase.
-
+## Dataset Overview:
+It is crucial for credit card companies to detect fraudulent transactions to protect customers from unauthorized purchases. This project uses the Credit Card Fraud Detection Dataset from Kaggle.
 https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud 
+## Dataset Content
+**Time Period**: Transactions made in September 2013 by European cardholders.
+**Size**: The dataset contains 284,807 transactions over two days.
+**Fraud Instances**:
+Total fraudulent transactions: 492.
+Fraud transactions account for 0.172% of all transactions, making the dataset highly imbalanced.
+## Features
+**PCA Features**:
+The dataset includes 28 principal components labeled as V1, V2, ..., V28.
+Non-PCA Features:
+**Time**: Seconds elapsed since the first transaction.
+**Amount**: The transaction amount (useful for cost-sensitive learning).
+**Target**:
+**Class**: Binary response variable.
+0 → Non-fraudulent transaction.
+1 → Fraudulent transaction.
+## Project: 
+Fraud Detection Using Machine Learning
+This project focuses on fraud detection using machine learning techniques, with an emphasis on the Naive Bayes Classifier and comparisons with other models.
+## Models Used
+Naive Bayes Classifier
+Support Vector Machines (SVM)
+Random Forest Classifier
+Logistic Regression
+K-Nearest Neighbors (KNN
+## Objectives
+Compare the performance of the Naive Bayes Classifier against other machine learning models.
+Handle the class imbalance using appropriate strategies such as resampling, class weighting, or ensemble methods.
+## Measure performance using meaningful metrics:
+Precision
+Recall
+F1 Score
+## How to Run the Project
+Prerequisites
+Install required libraries:
+pip install pandas numpy scikit-learn matplotlib seaborn
+## Clone the Repository:
 
-**Content**:
-
-The dataset contains transactions made by credit cards in September 2013 by European cardholders.
-This dataset presents transactions that occurred in two days, where we have 492 frauds out of 284,807 transactions. The dataset is highly unbalanced, the positive class (frauds) account for 0.172% of all transactions.
-
-It contains only numerical input variables which are the result of a PCA transformation. Unfortunately, due to confidentiality issues, we cannot provide the original features and more background information about the data. Features V1, V2, … V28 are the principal components obtained with PCA, the only features which have not been transformed with PCA are 'Time' and 'Amount'. Feature 'Time' contains the seconds elapsed between each transaction and the first transaction in the dataset. The feature 'Amount' is the transaction Amount, this feature can be used for example-dependant cost-sensitive learning. Feature 'Class' is the response variable and it takes value 1 in case of fraud and 0 otherwise.
-
-Given the class imbalance ratio, we recommend measuring the accuracy using the Area Under the Precision-Recall Curve (AUPRC). Confusion matrix accuracy is not meaningful for unbalanced classification.
-
-**Project**:
-Fraud Detection with Naive Bayes Classifier vs other machine learning modeles
