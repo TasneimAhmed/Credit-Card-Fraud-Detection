@@ -31,8 +31,8 @@ K-Nearest Neighbors (KNN
 Compare the performance of the Naive Bayes Classifier against other machine learning models.
 Handle the class imbalance using appropriate strategies such as resampling, class weighting, or ensemble methods.
 ## Measure performance using meaningful metrics:
-Precision
-Recall
+Precision , 
+Recall ,
 F1 Score
 ## How to Run the Project
 Prerequisites
