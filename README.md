@@ -15,8 +15,8 @@ Non-PCA Features:
 **Amount**: The transaction amount (useful for cost-sensitive learning).
 **Target**:
 **Class**: Binary response variable.
-
 0 → Non-fraudulent transaction.
+
 1 → Fraudulent transaction.
 ## Project: 
 Fraud Detection Using Machine Learning
