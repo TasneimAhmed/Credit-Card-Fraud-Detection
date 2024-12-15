@@ -10,15 +10,15 @@ https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
 
 Fraud transactions account for 0.172% of all transactions, making the dataset highly imbalanced.
 ## Features
-**PCA Features**:
-The dataset includes 28 principal components labeled as V1, V2, ..., V28.
+**PCA Features**: The dataset includes 28 principal components labeled as V1, V2, ..., V28.
 Non-PCA Features:
-**Time**: Seconds elapsed since the first transaction.
-**Amount**: The transaction amount (useful for cost-sensitive learning).
-**Target**:
-**Class**: Binary response variable.
-0 → Non-fraudulent transaction.
+**Time**:  Seconds elapsed since the first transaction.
+**Amount**:  The transaction amount (useful for cost-sensitive learning).
 
+**Target**:
+
+**Class**:  Binary response variable.
+0 → Non-fraudulent transaction.
 1 → Fraudulent transaction.
 ## Project: 
 Fraud Detection Using Machine Learning
